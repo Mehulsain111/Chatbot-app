@@ -1,0 +1,74 @@
+*{
+  transition: all 0.3s;
+}
+body {
+  background:linear-gradient(to right, black, rgba(111, 111, 111, 0.945))  !important; 
+  color: aliceblue !important; 
+  font-family: 'Arial', sans-serif !important;
+}
+
+.chatbox {
+  background:linear-gradient(to right, black, rgba(111, 111, 111, 0.945))  !important; 
+  border-radius: 30px; 
+  padding: 20px 10px; 
+  width: 65%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px; 
+
+}
+
+
+input {
+  border: none;
+  outline: none;
+ background:linear-gradient(to right, rgba(111, 111, 111, 0.945), rgb(22, 22, 22))  !important; 
+  color: white;
+  font-style: italic;
+  padding: 10px;
+  width: 80%;
+  border-radius:25px;
+  margin:10px ;
+}
+
+::placeholder {
+  color: rgba(255, 255, 255, 0.764); 
+}
+button {
+  border-radius: 50% !important;
+  border: none;
+  outline: none;
+  background-color: white;
+  color: black;
+  width: 8%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ddd;
+}
+
+.feedback,
+.query {
+  animation: bounceIn 0.5s ease-out;
+}
+
+/* Define animation for bouncing in */
+@keyframes bounceIn {
+  0% {
+    opacity: 0;
+    transform: scale(0.3);
+  }
+  60% {
+    opacity: 1;
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
