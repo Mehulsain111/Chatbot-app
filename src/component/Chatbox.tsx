@@ -20,7 +20,7 @@ export const Chatbox = ({ chatHistory }: Props) => {
             className="d-flex align-items-center w-100 chat-message"
           >
             <div className="col-2 d-flex justify-content-start">
-              <img className="w-75" src={human} alt="Human Avatar" />
+              <img className="w-75 mb-5 pb-4" src={human} alt="Human Avatar" />
             </div>
             <div className="col-8">
               <div className="query py-2 text-start w-100">
