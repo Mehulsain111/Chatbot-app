@@ -14,7 +14,7 @@ function App() {
   const [input, setInput] = useState<string>("");
   const [chatHistory, setChatHistory] = useState<ChatEntry[]>([]);
 
-  const lenis = new Lenis({
+   new Lenis({
     autoRaf: true,
   });
 
